@@ -1,0 +1,76 @@
+#navbar{
+    background-color:#2eca7f ;
+    color:white;
+    display: flex;
+    position: fixed;
+   width: 100%;
+    justify-content: space-around;
+    z-index: 2;
+}
+#navbar ul{
+    display: none;
+}
+#navbar i{
+    display: block;
+    margin-right: 2%;
+    color: white;
+    cursor: pointer;
+    font-size:25px;
+    margin-top: 31px;
+}
+#navbar{
+    justify-content: space-between;
+}
+.baslik1 span{
+    color: white;
+}
+.alt{
+    margin: 0px auto;
+ background-color: #2eca7f;
+ max-width: 90%;
+ min-height:600px;
+ flex-wrap: wrap;
+}
+
+.altBeyaz{
+max-width: 90%;
+height:650px;
+flex-wrap: wrap;
+}
+.aboutP{
+     position: relative;
+    margin-left: -60px;
+}
+.info ul{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 50px 50px;
+}
+#foto{
+    position: relative;
+    margin-right: 22%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.alt .yazi{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+    margin-left: 25%;
+}
+#foto img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bg{
+    position:absolute;
+}
+
+
+
